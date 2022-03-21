@@ -7,22 +7,30 @@ JSONLiveLinkEnhanced by [@clintonman](https://github.com/clintonman) : https://g
 
 ## Usage
 
-[Instructional Video (TBD)]()
+~~[Instructional Video (TBD)]()~~
 
 1. Install the JSONLiveLink plugin for Unreal.
      1. Create a new UE project, close the project.
      1. Create a `Plugins` folder in the project folder, and copy `JSONLiveLink`folder into it.
      1. Open the project, the project will be automatically rebuilt.
      1. Make sure the plugins `Live Link` and `JSONLiveLinkEnhanced` are enabled.
+
      ![](images/shoot3.png)
+
      1. Open the `Live Link` window ( Window > Live Link ) and add the JSONLiveLink source (specify the ip and port).
+
      ![](images/shoot2.png)
+
 1. Drag and drop `JSONLiveLink.tox` into the TD.
 1. Create a `UDP Out DAT` for it and specify it, and set the port parameter to be the same as the JSONLiveLink source on the UE side.
+
      ![](images/shoot4.png)
      ![](images/shoot5.png)
+
 1. Confirm the type of `Role` you want to use and press `Create Subject`. The `Live Link` window on the UE side should show its subject.
+
      ![](images/shoot6.png)
+
 1. The usage after that is the same as other Live Link plugins.
 
 ## Notes
