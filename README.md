@@ -9,9 +9,9 @@ JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://
 
 1. Install the JSONLiveLink plugin for Unreal.
      1. Create a new project, close the project.
-     1. Create a `Plugins` folder in the project folder, and copy `JSONLiveLink`folder into it
+     1. Create a `Plugins` folder in the project folder, and copy `JSONLiveLink`folder into it.
      1. Open the project, the project will be automatically rebuilt.
-     1. Open the LiveLink window and add the JSONLiveLink source (specify the ip and port)
+     1. Open the LiveLink window and add the JSONLiveLink source (specify the ip and port).
 
 1. Drag and drop `JSONLiveLink.tox` into the TD.
 1. Create a `UDP Out DAT` for it and specify it, and set the port parameter to be the same as the JSONLiveLink source on the UE side.
@@ -26,4 +26,4 @@ JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://
 - Once a Subject is created, the UE side cannot change the Role type anymore.
 - If a Subject is deleted on the UE side, a topic with the same name cannot be created again.
 
->The above issues need to modify JsonLinkLink itself to solve.
+>The above issues need to modify JSONLiveLink plugin itself to solve.
