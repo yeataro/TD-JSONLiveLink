@@ -15,7 +15,7 @@ JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://
 
 1. Drag and drop `JSONLiveLink.tox` into the TD.
 1. Create a `UDP Out DAT` for it and specify it, and set the port parameter to be the same as the JSONLiveLink source on the UE side.
-1. Confirm the type of `Role` you want to use and press `Create Subject`. The Live window on the UE side should show its subject.
+1. Confirm the type of `Role` you want to use and press `Create Subject`. The LiveLink window on the UE side should show its subject.
 1. The usage is consistent with any LiveLink plugin thereafter.
 
 ## Notes
