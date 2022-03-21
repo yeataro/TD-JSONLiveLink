@@ -1,11 +1,11 @@
 # TD-JSONLiveLink
 TouchDesigner > JSONLiveLink
 
->JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://github.com/clintonman/JSONLiveLink/tree/enhanced
+JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://github.com/clintonman/JSONLiveLink/tree/enhanced
 
 ## Usage
 
-Instructional Video (TBD)
+[Instructional Video (TBD)]()
 
 1. Install the JSONLiveLink plugin for Unreal.
      1. Create a new project, close the project.
