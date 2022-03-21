@@ -1,6 +1,8 @@
 # TD-JSONLiveLink
 TouchDesigner > JSONLiveLink > Unreal Engine
 
+![](images/shoot1.png)
+
 JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://github.com/clintonman/JSONLiveLink/tree/enhanced
 
 ## Usage
@@ -8,11 +10,11 @@ JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://
 [Instructional Video (TBD)]()
 
 1. Install the JSONLiveLink plugin for Unreal.
-     1. Create a new project, close the project.
+     1. Create a new UE project, close the project.
      1. Create a `Plugins` folder in the project folder, and copy `JSONLiveLink`folder into it.
      1. Open the project, the project will be automatically rebuilt.
-     1. Open the LiveLink window and add the JSONLiveLink source (specify the ip and port).
-
+     1. Open the LiveLink window ( Window > LiveLink ) and add the JSONLiveLink source (specify the ip and port).
+![](images/shoot2.png)
 1. Drag and drop `JSONLiveLink.tox` into the TD.
 1. Create a `UDP Out DAT` for it and specify it, and set the port parameter to be the same as the JSONLiveLink source on the UE side.
 1. Confirm the type of `Role` you want to use and press `Create Subject`. The LiveLink window on the UE side should show its subject.
