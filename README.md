@@ -15,7 +15,7 @@ JSONLiveLinkEnhanced by [@clintonman](https://github.com/clintonman) : https://g
      1. Open the project, the project will be automatically rebuilt.
      1. Make sure the plugins `Live Link` and `JSONLiveLinkEnhanced` are enabled.
      ![](images/shoot3.png)
-     1. Open the `Live Link` window (`Window > Live Link ) and add the JSONLiveLink source (specify the ip and port).
+     1. Open the `Live Link` window ( Window > Live Link ) and add the JSONLiveLink source (specify the ip and port).
      ![](images/shoot2.png)
 1. Drag and drop `JSONLiveLink.tox` into the TD.
 1. Create a `UDP Out DAT` for it and specify it, and set the port parameter to be the same as the JSONLiveLink source on the UE side.
@@ -23,7 +23,7 @@ JSONLiveLinkEnhanced by [@clintonman](https://github.com/clintonman) : https://g
      ![](images/shoot5.png)
 1. Confirm the type of `Role` you want to use and press `Create Subject`. The `Live Link` window on the UE side should show its subject.
      ![](images/shoot6.png)
-1. The usage is consistent with any LiveLink plugin thereafter.
+1. The usage after that is the same as other Live Link plugins.
 
 ## Notes
 - To control camera parameters in [UE 4.27](https://docs.unrealengine.com/4.27/en-US/WhatsNew/Builds/ReleaseNotes/4_27), the `LiveLinkCamera Plugin` needs to be enabled.
