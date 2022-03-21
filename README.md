@@ -9,7 +9,7 @@ JSONLiveLink enhanced by [@clintonman](https://github.com/clintonman) : https://
 
 1. Install the JSONLiveLink plugin for Unreal.
      1. Create a new project, close the project.
-     1. Create a `Plugins` folder in the project folder.
+     1. Create a `Plugins` folder in the project folder, and copy `JSONLiveLink`folder into it
      1. Open the project, the project will be automatically rebuilt.
      1. Open the LiveLink window and add the JSONLiveLink source (specify the ip and port)
 
