@@ -37,7 +37,7 @@ JSONLiveLinkEnhanced by [@clintonman](https://github.com/clintonman) : https://g
 - To control camera parameters in [UE 4.27](https://docs.unrealengine.com/4.27/en-US/WhatsNew/Builds/ReleaseNotes/4_27), the `LiveLinkCamera Plugin` needs to be enabled.
 
 ## Known Issues
-- Scale doesn't work in UE 4.27.
+- ~~Scale doesn't work in UE 4.27.~~ Fix.
 - Once a Subject is created, the UE side cannot change the Role type anymore.
 - If a Subject is deleted on the UE side, a topic with the same name cannot be created again.
 
